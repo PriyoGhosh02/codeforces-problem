@@ -9,5 +9,6 @@ if len(str) >= 1 and len(str) <= 100:
             if j == 5:
                 print("YES")
                 break
+            
     if j != 5:
         print("NO")
