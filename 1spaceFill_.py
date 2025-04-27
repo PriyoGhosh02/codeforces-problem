@@ -1,7 +1,13 @@
+import pyperclip
+
 s = input()
 split = s.split()
 
-print("_".join(split))
+s="_".join(split)
+
+pyperclip.copy(s)
+print("\033[31mText copied to clipboard!\033[0m")
+
 
 # git add .
 # git commit -m "commit"
