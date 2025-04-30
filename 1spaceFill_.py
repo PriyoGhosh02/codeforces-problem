@@ -5,7 +5,7 @@ split = s.split()
 
 s="_".join(split)
 
-pyperclip.copy(s)
+pyperclip.copy(s)  # pip install pyperclip
 print("\033[31mText copied to clipboard!\033[0m")
 
 
