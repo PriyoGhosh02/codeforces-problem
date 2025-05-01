@@ -1,16 +1,1 @@
-s, n = map(int, input().split())
-arr=[]
-for i in range(n):
-    x,y= map(int, input().split())
-    arr.append((x,y))
-
-win=0
-for i in range(n):
-    if s>arr[i][0]:
-        s+=arr[i][1]
-        win+=1
-
-if win==n:
-    print("YES")
-else:
-    print("NO")
+combinations
